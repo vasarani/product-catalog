@@ -1,0 +1,50 @@
+/* Style for the whole webpage */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Style for the main heading */
+h1 {
+    color: #333;
+}
+
+/* Style for the search bar and dropdown */
+input, select {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the product list section */
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Style for each product box */
+.product {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for product name */
+.product h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Style for product details */
+.product p {
+    margin: 5px 0;
+}
